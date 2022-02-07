@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Luiz Henrique Santos">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Link's</title>
+
+    <style>
+        @charset "UTF-8";
+
+        @height: auto;
+
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #A68953;
+            height: auto;
+            width: auto;
+        }
+
+        h1
+        {
+            text-align: center;
+            text-shadow: 1px 1px 4px #C3B6F2;
+        }
+
+        p.p1
+        {
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited
+        {
+            color: black;
+        }
+
+        a:hover
+        {
+            color: darkred;
+            text-decoration: underline;
+            
+        }
+
+        a:active
+        {
+            color: dimgrey;
+            text-shadow: 2px 2px 8px yellow;
+        }
+
+        a::before
+        {
+            content: "--> ";
+        }
+
+        a::after
+        {
+            content: " <--";
+        }
+
+        .especial
+        {
+            background-color: #F2C49B;
+            border: 1.5px solid black;
+        }
+
+        ul
+        {
+            display: inline-flex;
+        }
+
+        div
+        {
+            background-color: #C3B6F2;
+            height: 120px;
+            margin: 4px;
+            padding: 8px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        div:hover
+        {
+            box-shadow: 2px 2px 4px #464B59;
+        }
+
+        div:hover > p
+        {
+            display: block;
+            border: none;
+            color: #464B59;
+            font-weight: bolder;
+            font-size: 1.3em;
+        }
+        
+        .p01
+        {
+            width: 196px;
+        }
+
+        .p01:hover
+        {
+            background-color: #F2C49B;
+            border: none;
+        }
+
+        div.p01> p.ocult
+        {
+            display: none;
+        }
+
+        div.p01:hover > p
+        {
+            display: block;
+            font-size: 1.3em;
+        }
+        
+        .p02
+        {
+            width: 191px;
+        }
+        
+        .p02:hover
+        {
+            background-color: #F2C49B;
+            border: none;
+        }
+
+        div.p02 > p.ocult
+        {
+            display: none;
+        }
+
+        div.p02:hover > p
+        {
+            display: block;
+            font-size: 1.2em;
+        }
+        
+        .p03
+        {
+            width: 228px;
+        }
+
+        .p03:hover
+        {
+            background-color: #F2C49B;
+            border: none;
+        }
+
+        div.p03 > p.ocult
+        {
+            display: none;
+        }
+
+        div.p03:hover > p
+        {
+            display: block;
+            font-size: 1.3em;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Link's</h1>
+            <ul>
+                <div class="p01">
+                    <br><p class="especial">Repositório GitHub</p>
+                    <P class="ocult"><a href="https://gustavoguanabara.github.io" target="_blanck" rel="external">Materiais</a></P>
+                </div>
+                <div class="p02">
+                        <br><p class="especial">Canal do YouTube</p>
+                            <p class="ocult"><a href="https://youtube.com/cursoemvideo/" target="_blanck" rel="external">Videos Aulas</a></p>
+                </div>
+                
+                <div class="p03">
+                    <br><p class="especial">Site do Cursoem Video</p></li>
+                        <p class="ocult"><a href="https://www.cursoemvideo.com" target="_blanck" rel="external">Vídeos do Site</a></p>
+                </div>
+            </ul>
+</body>
+</html>

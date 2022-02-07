@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+/*
+Medidas Absolutas
+cm, mm, in, px, pt ,pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+Geralmente 16px = 1em
+*/
+
+
+/*
+shorthand font
+-font-style --> font-weight --> font-size --> font-family
+______________________________________
+font: italic bolder 3em arial;
+            =
+font-style: italic;
+font-weight: bolder;
+font-size: 3em;
+font-family: 'Work Sans';
+______________________________________
+*/
+
+body
+    {
+        font-family: Helvetica, sans-serif;
+        font-size: 1;
+        background-color: #0D0D0D;
+    }
+
+h1
+    {
+        font-family: Georgia, serif;
+        text-align: center;
+        font-size: 1.5em;
+        color: #8C862A;
+    }
+
+h2
+    {
+        font-family: Georgia, serif;
+        text-align: center;
+        font-size: 1.2em;
+        color: #8C862A;
+    }
+
+p
+    {
+        text-align: justify;
+        font-size: 1em;
+    }
+
+main
+    {
+        width: 450px;
+        margin:42px;
+        padding: 24px;
+        border-radius: 9px;
+        background-color: #D9D9D9;
+        
+    }

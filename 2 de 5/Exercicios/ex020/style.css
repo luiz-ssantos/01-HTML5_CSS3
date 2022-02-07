@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(103, 111, 117);
+    font-size: 2.5;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+div.inicio
+{
+    background-color: brown;
+    border: 3px solid black;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    font-size: 5em;
+}
+
+.p01
+{
+    background-color: rgb(100, 160, 95);
+}
+
+.p02
+{
+    background-color: rgb(160, 95, 95);
+}
+
+.p03
+{
+    background-color: cadetblue;
+}
+
+div:hover
+{
+    color: blue;
+    border: 4px solid red;
+    font-weight: bolder;
+    font-size: 2em;
+    background-color: chartreuse;
+    box-shadow: 2px 2px 5px blue;
+    font-size: 5em;
+}
+

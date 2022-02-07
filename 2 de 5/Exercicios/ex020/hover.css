@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+
+div.text > p
+{
+    display: none;
+}
+
+div.text:hover > p
+{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: nane;
+    color: black;
+    border: nane;
+    font-weight: bolder;
+    box-shadow: nane;
+    font-size: 1.5em;
+    width: 590px;
+    text-align: center;
+    margin: auto;
+}
+
+p
+{
+    font-size: 1em;
+}

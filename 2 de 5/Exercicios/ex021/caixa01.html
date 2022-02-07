@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Modelo de Caixa</title>
+</head>
+
+<style>
+    
+    h1  /*Diplay - box-level - block*/
+    {
+        background-color: blueviolet;
+        height: 40px;
+        width: 396px;
+
+        /*
+        border-width: 8px;
+        border-style: double;
+        border-color: black;
+        
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        
+        margin-top: 30px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+
+        outline-width: 8px;
+        outline-style: outset;
+        outline-color: yellow;
+        */
+
+        border: 8px double black;
+        
+        padding: 10px 10px 3px 10px;
+
+        margin: 30px auto 20px auto;
+
+        outline: 8px outset yellow;
+    }
+
+    p  /*Diplay - box-level - block*/
+    {
+        background-color: rgb(80, 226, 43);
+        height: auto;
+        width: auto;
+        text-align: center;
+        font-size: 1.3em;
+        
+        /*
+        border-width: 2px;
+        border-style: dashed;
+        border-color: black;
+        
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+       
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        */
+        
+        border: 2px dashed black;
+
+        padding: 10px;
+
+        margin: 20px;
+    }
+
+    a  /*Diplay - inline-level*/
+    {
+        background-color: rgb(226, 43, 43);
+        color: black;
+        font-weight: bolder;
+        text-decoration: none;
+
+        /*
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+
+        padding-top: 1px;
+        padding-right: 5px;
+        padding-bottom: 1px;
+        padding-left: 5px;
+        
+        margin-top: 1px;
+        margin-right: 5px;
+        margin-bottom: 1px;
+        margin-left: 5px;
+        */
+
+        border: 2px solid black;
+
+        padding: 1px 5px;
+
+        margin: 1px 5px;
+    }
+</style>
+
+<body>
+    <h1>Exemplo de Caixas Box-level</h1>
+        <p>Parágrafos também são exemplos de box-level, mas os <a href="#">link's são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

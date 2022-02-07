@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body
+{
+    background-color:#aea7dd8f;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    text-align: center;
+    background-color: ;
+    color: #4129D9;
+}
+
+h2
+{
+    background-color: #6CD9B1;
+    color: #503FBF;
+    text-align: center;
+}
+
+code
+{
+    font-weight: bold;
+}
+
+p
+{
+    text-align: justify;
+    color:#4129D9;
+}
