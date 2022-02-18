@@ -38,12 +38,53 @@
 
     }
 
+    #caixamenu
+    {
+        background-color: red;
+        height: 250px;
+        width: 30px;
+
+        position: absolute;
+        
+        left: 0%;
+        top: 0%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #caixamenu:hover > nav
+    {
+        display: block;
+        background-color: wheat;
+        height: 250px;
+        width: 100px;
+
+        position: absolute;
+        
+        left: 101%;
+        top: 0%; 
+    }
+    
 </style>
 <body>
     <section id="container">
         <article id="conteudo">
-            <p></p>
         </article>
+    </section>
+    <section id="caixamenu">
+        <p>
+            MENU
+        </p>
+        <nav>
+            <a href="#">123</a>
+            <br>
+            <a href="#">456</a>
+            <br>
+            <a href="#">789</a>
+        </nav>
     </section>
 </body>
 </html>
