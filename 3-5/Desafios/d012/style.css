@@ -2,11 +2,11 @@
 
 body
 {
-    height: 98vh;
     margin: 0px;
     margin-top: 0px;
     padding: 0px;
-    border: 0px;
+    padding-top: -0px;
+    border-top: 0px;
 }
 
 header
@@ -16,5 +16,82 @@ header
     text-align: center;
 
     margin: 0px;
+    margin-top: 0px;
     padding: 0px;
+    padding-top: -0px;
+    border-top: 0px;
+}
+
+section > p.fundoff
+{
+    width: 50%;
+    padding: 15;
+    margin: 25px;
+    text-align: justify;
+    font-size: 1.7em;
+}
+
+section > p.fundoimg
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 50%;
+    padding: 15;
+    margin: 25px;
+    text-align: justify;
+    font-size: 1.7em;
+}
+
+#part01
+{
+    margin-top: 90px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#part02
+{
+    height: 400px;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#part03
+{
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    ackground-size: cover;
+    background-attachment: fixed;
+}
+
+#part04
+{
+    height: 400px;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#part05
+{
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    ackground-size: cover;
+    background-attachment: fixed;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
 }
