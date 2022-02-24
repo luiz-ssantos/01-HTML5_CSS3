@@ -40,6 +40,40 @@ header > p > a
 
 header > p > a:hover
 {
-    text-decoration: ;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.432);
+}
+
+article > section
+{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+article > section.normal
+{
+    background-color: white;
+    color: black;
+}
+
+article > section.imagem
+{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+article > section.imagem > p
+{
+    max-width: 400px;
+    min-width: 280px;
+    background-color: black;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
