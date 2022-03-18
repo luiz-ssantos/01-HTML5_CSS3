@@ -17,6 +17,7 @@
         {
             border: 2px solid black;
             width: 400px;
+            height: 300px;
             border-collapse: collapse;
             margin: auto;
         }
@@ -26,16 +27,12 @@
             border: 1px solid black;
             padding: 10px;
             text-align: center;
+            vertical-align: bottom;
         }
 
-        tr.linha
+        td.numero
         {
-            background-color: rgb(145, 201, 201);
-        }
-        td.linha
-        {
-            background-color: rgb(255, 17, 0);
-            border: 2px outset yellowgreen;
+            text-align: right;
         }
     </style>
 </head>
@@ -54,33 +51,23 @@
         <table>
             <tr>
                 <td>A1</td>
-                <td>B1</td>
+                <td class="numero">B1</td>
                 <td>C1</td>
             </tr>
-            <tr class="linha">
+            <tr>
                 <td>A2</td>
-                <td class="linha">B2</td>
+                <td>B2</td>
                 <td>C2</td>
             </tr>
             <tr>
-                <td>A3</td>
+                <td class="numero">A3</td>
                 <td>B3</td>
                 <td>C3</td>
             </tr>
-            <tr class="linha">
+            <tr>
                 <td>A4</td>
                 <td>B4</td>
-                <td class="linha">C4</td>
-            </tr>
-            <tr>
-                <td>A5</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr class="linha">
-                <td></td>
-                <td>B6</td>
-                <td>C6</td>
+                <td>C4</td>
             </tr>
         </table>
 </body>
