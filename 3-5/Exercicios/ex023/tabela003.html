@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Luiz Henrique Santos">
+    <title>Tabela 003</title>
+    <style>
+        table
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr
+        {
+
+        }
+
+        td
+        {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .linha
+        {
+            background-color: azure;
+        }
+
+        .coluna
+        {
+            background-color: bisque;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+        <table>
+            <tr>
+                <td class="linha" colspan="2">A</td>
+                <td class="coluna" rowspan="2">B</td>
+            </tr>
+            <tr>
+                <td class="coluna" rowspan="2">D</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td class="linha" colspan="2">H</td>
+            </tr>
+            <tr>
+                <td class="linha" colspan="2">L</td>
+                <td>M</td>
+            </tr>
+        </table>
+</body>
+</html>
