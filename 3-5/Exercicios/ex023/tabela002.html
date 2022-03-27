@@ -7,6 +7,12 @@
     <meta name="autor" content="Luiz Henrique Santos">
     <title>Tabelas</title>
     <style>
+        body
+        {
+            background-color: #F2F2F2;
+            color: #071540;
+        }
+        
         h1
         {
             text-align: center;
@@ -17,7 +23,7 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             padding: 10px;
-            border: 2px solid black;
+            border: 2px solid #071540;
             border-collapse: collapse;
             margin: auto;
             width: 600px;
@@ -28,7 +34,7 @@
         table > thead > tr > th
         {
             position: sticky;
-            top: -1px;
+            top: 36px;
         }
 
         table > tfoot > tr > th
@@ -44,6 +50,8 @@
             background-color: lightgray;
             padding: 10px;
             font-weight: bolder;
+            position: sticky;
+            top: -1px;
         }
 
         th, td
@@ -54,8 +62,8 @@
 
         th, tfoot > tr > td
         {
-            color: azure;
-            background-color: rgb(15, 15, 15);
+            color: #F2F2F2;
+            background-color: #071540;
         }
 
         tbody > tr td.num
@@ -65,23 +73,38 @@
 
         tbody > tr:nth-child(odd)
         {
-            background-color: rgba(236, 239, 245, 0.692);
+            background-color: #F2F2F2;
         }
 
         tbody > tr:nth-child(even)
         {
-            background-color: lightgray;
+            background-color: #84D9B1;
         }
         div
         {
             text-align: justify;
             max-width: 990px;
             margin: auto;
-            margin-top: 55px;
+            margin-top: 35px;
             padding: 35px;
             padding-top: 15px;
-            background-color: azure;
-            text-indent: 25px;
+            background-color: #84D9B1;
+            text-indent: 55px;
+            border-radius: 15px;
+
+            box-shadow: inset 3px 2px 9px #41BF78;
+        }
+
+        div > p
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            line-height: 33px;
+        }
+
+        abbr
+        {
+            text-decoration: none;
         }
     </style>
 </head>
@@ -120,7 +143,7 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>São Paulo</td>
+                <td><abbr title="Capital: São Paulo">São Paulo</abbr></td>
                 <td class="num">46 649 132</td>
             </tr>
             <tr>
@@ -135,7 +158,7 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Bahia</td>
+                <td><abbr title="Capital: Salvador">Bahia</abbr></td>
                 <td class="num">14 985 284</td>
             </tr>
             <tr>
