@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Luiz Hnerique Santos">
+    <title>Exercício de Tabelas</title>
+    <style>
+        table
+        {
+            width: 600px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        caption
+        {
+            background-color: #E9EFF2;
+            padding: 4px;            
+            border:1px solid #0554F2;
+        }
+
+        th
+        {
+            padding: 8px;
+            font-size: 1.2em;
+            background-color: #447EF2;
+            color: white;
+            border:1px solid #0554F2;
+        }
+
+        td
+        {
+            padding: 8px;
+            border:1px solid #0554F2;
+        }
+
+        col.cgrupo
+        {
+            background-color: chartreuse;
+        }
+
+        col.cgrupo2
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício der Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cgrupo" span="2">
+            <col class="cgrupo2" span="1">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th colspan="4">CLIENTES</th>
+            </tr>        
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profisão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Criado por <strong>Luiz Hnerique Santos</strong></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
